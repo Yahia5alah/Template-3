@@ -8,7 +8,6 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-
 }
 a{
     text-decoration: none;
@@ -663,7 +662,7 @@ transition: var(--main-transition);
     border-color: #f44036;
     color: #f44036;
     background: linear-gradient(to right ,#f44036 50%, white 50%);
-    background-size: 200% 100%;
+    background-size: 200% 90%;
     background-position: right bottom;
     transition:var(--main-transition);
 }
@@ -671,7 +670,7 @@ transition: var(--main-transition);
 border-color: #009668;
 color: #009668;
 background: linear-gradient(to right ,#009668 50%, white 50%);
-background-size: 200% 100%;
+background-size: 200% 90%;
 background-position: right bottom;
 transition:var(--main-transition);
 }
@@ -679,7 +678,7 @@ transition:var(--main-transition);
 border-color: var(--main-color);
 color: var(--main-color);
 background: linear-gradient(to right ,var(--main-color) 50%, white 50%);
-background-size: 200% 100%;
+background-size: 200% 90%;
 background-position: right bottom;
 transition:var(--main-transition);
 }
@@ -1170,6 +1169,7 @@ font-size: 20px;
     border: none;
     flex: 1;
     caret-color: var(--main-color);
+    padding: 20px;
 }
 .last-event .container .subscribe form input[type="email"]:focus{
     border: none;
@@ -1199,6 +1199,7 @@ font-size: 20px;
         font-size: 14px;
         padding:10px;
         width: 80px;    
+
     }    
     }
 /* End HOW IT WORKS ? *******************************************/
